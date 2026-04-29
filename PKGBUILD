@@ -1,6 +1,6 @@
 # Maintainer: Will Pimblett <aur@wjdp.uk>
 pkgname=moderncsv-bin
-pkgver=2.3
+pkgver=2.4.1
 pkgrel=1
 pkgdesc='An Intuitive CSV File Editor/Viewer'
 arch=('x86_64')
@@ -8,7 +8,7 @@ url='https://www.moderncsv.com/'
 license=('custom:Proprietary')
 source=("https://www.moderncsv.com/release/ModernCSV-Linux-v$pkgver.tar.gz"
 		"ModernCSV-LICENSE.md")
-sha256sums=('017322a16a2d676d458b39eb6577e7a7702d92142c6ac42eb7f28b0a46389b1b'
+sha256sums=('a84ece70cf01331b5479c4a6edb3dc71fa625c644fcee0e3be814df4daa7c7e1'
             '016bbbd5ae1785e2220d082bbaf9f54f2ca1b9be912ff3007eb4b860eaac87e1')
 
 package() {
